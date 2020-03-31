@@ -9,6 +9,8 @@ html, body {
 	width: 100%;
 	margin: 0px;
 	overflow-x: hidden;
+	font-family: 'Roboto';
+	font-size: 22px;
 }
 
 /* Navbar - Background */
