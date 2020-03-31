@@ -20,7 +20,7 @@ html, body {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	left: 0;
+	left: -200px;
 	z-index: 0;
 
 /* non-critical appearance styles */
@@ -99,7 +99,7 @@ Label[for="Nav-Trigger"] {
 	left: 215px;
 }
 
-.Nav-Trigger:checked ~ .Site-Wrapper {
+.Nav-Trigger:checked ~ .Site-Wrapper, .Navbar {
 	left: 200px;
 	box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
 }
