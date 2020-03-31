@@ -1,13 +1,62 @@
-@import url("https://use.typekit.net/uxr0xoa.css");
 ::-webkit-scrollbar {
     display:none;
 }
 
 body {
-    margin:0;
-    text-rendering:optimizeLegibility;
-    overflow-x:hidden;
     background:#121212;
-    backface-visibility: hidden;
     text-color: white;
+}
+
+/*
+Set body at least 100% height.
+You can also use a combination of height: 100% in <html> and min-height: 100% in <body>.
+*/
+.Perfect-Layout {
+	min-height: 100vh;
+}
+
+/*
+Column distribution. (mobile first)
+Flex value is 1 1 auto to make the body skrinkable and extensible.
+*/
+.Perfect-Layout,
+.Perfect-Layout-Body {
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction: column;
+}
+
+/*
+Content body item is made extensible too.
+*/
+.Perfect-Layout-Content {
+	flex: 1 1 auto;
+}
+
+/*
+Put the first sidebar before content.
+If you need sidebar to be before content only in big screen put those 3 next lines in @media block.
+ */
+.Perfect-Layout-Sidebar-1 {
+	order: -1;
+}
+
+/*
+For the bigger screens.
+*/
+
+@media (min-width: 768px) {
+	/*
+	 Body items are now side by side
+	 */
+	.Perfect-Layout-Body {
+		flex-direction: row;
+	}
+
+	/*
+	 Sidebars have a basic 260 width and are not really flexible anymore.
+	 */
+	.PL-Sidebar {
+		flex: 0 0 260px;
+	}
 }
