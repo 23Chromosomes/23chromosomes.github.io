@@ -89,9 +89,9 @@ Label[for="Nav-Trigger"] {
 	background-size: contain;
 }
 
-/* Make the Magic Happen */
+/* Change values div & Add Transitions*/
 .Nav-Trigger + Label, .Site-Wrappper {
-	transition: left 0.1s;
+	transition: 0.5s;
 }
 
 .Nav-Trigger:checked + Label {
@@ -101,11 +101,13 @@ Label[for="Nav-Trigger"] {
 .Nav-Trigger:checked ~ .Site-Wrapper {
 	left: 200px;
 	box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+	transition: left 0.5s;
 }
 
-.Nav-Trigger:checked ~ .Navbar {
+.Nav-Trigger:not(:checked) ~ .Site-Wrapper {
 	left: 0px;
 	box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+	transition: left 0.5s;
 }
 
 /* Micro reset */
