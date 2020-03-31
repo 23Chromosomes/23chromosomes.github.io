@@ -9,4 +9,5 @@ body {
     overflow-x:hidden;
     background:#121212;
     backface-visibility: hidden;
+    text-color: white;
 }
