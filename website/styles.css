@@ -82,7 +82,8 @@ html, body {
 Label[for="Nav-Trigger"] {
 /* critical positioning styles */
 	position: fixed;
-	left: 15px; top: 15px;
+	left: 15px;
+	top: 10px;
 	z-index: 2;
 
 /* non-critical apperance styles (Hamburger) */
