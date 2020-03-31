@@ -98,8 +98,13 @@ Label[for="Nav-Trigger"] {
 	left: 215px;
 }
 
-.Nav-Trigger:checked ~ .Site-Wrapper, .Navbar {
+.Nav-Trigger:checked ~ .Site-Wrapper {
 	left: 200px;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.Nav-Trigger:checked ~ .Navbar {
+	left: 0px;
 	box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
 }
 
