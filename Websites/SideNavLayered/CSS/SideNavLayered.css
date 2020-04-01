@@ -15,7 +15,7 @@
 }
 
 .GitTemplateButton {
-  background-color:var(--accent);
+  background-color:rgba(83, 0, 92, 1);
   color:#fff;
   text-transform:uppercase;
   font-size: .725rem;
@@ -27,7 +27,7 @@
   padding: 0 16px 0 16px;
   overflow:hidden;
   border-radius:2px;
-  box-shadow:0 0 100px var(--accent);
+  box-shadow:0 0 100px rgba(174, 0, 194, 1);
   transition:250ms ease all;
   cursor:pointer;
   display:flex;
