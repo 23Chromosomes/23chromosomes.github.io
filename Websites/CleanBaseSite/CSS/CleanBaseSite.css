@@ -99,6 +99,7 @@ Content body item is made extensible too.
 */
 .Perfect-Layout-Content {
 	flex: 1 1 auto;
+	background: #16001d;
 }
 
 /*
