@@ -1,6 +1,6 @@
 /* BUTTONS SOURCE CODE, remove if you like. */
 
-.SOURCE-BUTTON {
+.BUTTON-INNER {
 	background: rgba(90, 0, 194, 1);
 	color: #fff;
 	text-transform: uppercase;
@@ -20,7 +20,7 @@
 	font-family: 'Material Icons';
 }
 
-.SOURCE-BUTTON:hover {
+.BUTTON-INNER:hover {
 	background: rgba(90, 0, 194, 0.65);
 }
 
