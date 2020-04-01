@@ -15,6 +15,7 @@
 	align-items: center;
 	opacity: 1;
 	transition: 0.3s;
+	margin: 5px;
 }
 
 .SOURCE-BUTTON:hover {
