@@ -13,11 +13,12 @@
 	box-shadow: 0 0 5px black;
 	cursor: pointer;
 	align-items: center;
-	transition: 250ms ease all;
+	opacity: 1;
+	transition: 0.3s;
 }
 
 .SOURCE-BUTTON:hover {
-	opacity: 0.65;
+	opacity: 0;
 }
 /* END */
 
