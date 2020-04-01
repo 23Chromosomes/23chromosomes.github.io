@@ -1,32 +1,55 @@
 /* BUTTONS SOURCE CODE, remove if you like. */
 
-.BUTTON-INNER {
-	background: rgba(90, 0, 194, 1);
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1rem;
-	letter-spacing: .08em;
-	border: none;
-	padding: 5px 10px 5px 10px;
-	overflow: hidden;
-	border-radius: 2px;
-	box-shadow: 0 0 5px black;
-	cursor: pointer;
-	align-items: center;
-	opacity: 1;
-	transition: 0.3s;
-	margin: 5px;
-	text-decoration: none;
-	display: inline-block;
+#Center {
+  display:flex;
+  justify-content:center;
+  height:fit-content;
+  position:relative;
 }
 
-.BUTTON-INNER:hover {
-	background: rgba(90, 0, 194, 0.65);
+.Button-Link {
+  min-width: 64px;
+  height: 34px;
+  margin:0 5px;
+  margin-top:10px;
 }
 
-.CODE-ICON {
-	font-family: 'Material Icons';
-	display: inline-block;
+.GitTemplateButton {
+  background-color:var(--accent);
+  color:#fff;
+  text-transform:uppercase;
+  font-size: .725rem;
+  font-weight: 600;
+  letter-spacing: .0892857143em;
+  border:none;
+  min-width: 64px;
+  height: 34px;
+  padding: 0 16px 0 16px;
+  overflow:hidden;
+  border-radius:2px;
+  box-shadow:0 0 100px var(--accent);
+  transition:250ms ease all;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  position:relative;
+}
+
+.Back-Button {
+  opacity:0;
+  animation:fade 350ms ease forwards;
+  animation-delay:.75s;
+}
+
+.Source-Button {
+  opacity:0;
+  animation:fade 350ms ease forwards;
+  animation-delay:.95s;
+}
+
+.material-icons {
+  font-size:20px;
+  margin-right:4px;
 }
 
 /* END */
