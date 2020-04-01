@@ -16,6 +16,7 @@
 	opacity: 1;
 	transition: 0.3s;
 	margin: 5px;
+	text-decoration: none;
 }
 
 .SOURCE-BUTTON:hover {
@@ -36,6 +37,7 @@
 	direction: ltr;
 	-webkit-font-feature-settings: 'liga';
 	-webkit-font-smoothing: antialiased;
+	text-decoration: none;
 }
 /* END */
 
