@@ -22,6 +22,7 @@
 
 .BUTTON-INNER:hover {
 	background: rgba(90, 0, 194, 0.65);
+	display: inline-block;
 }
 
 .CODE-ICON {
