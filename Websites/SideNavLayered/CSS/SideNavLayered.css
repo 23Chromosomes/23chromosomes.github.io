@@ -18,6 +18,7 @@
 	margin: 5px;
 	text-decoration: none;
 	font-family: 'Material Icons';
+	display: inline-block;
 }
 
 .BUTTON-INNER:hover {
