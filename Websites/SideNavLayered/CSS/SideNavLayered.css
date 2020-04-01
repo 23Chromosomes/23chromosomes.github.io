@@ -35,6 +35,11 @@
   position:relative;
 }
 
+.GitTemplateButton:hover {
+  box-shadow:0 0 100px rgb(82, 2, 105);
+  background:rgba(82, 2, 105);
+}
+
 .Back-Button {
   opacity:0;
   animation:fade 350ms ease forwards;
