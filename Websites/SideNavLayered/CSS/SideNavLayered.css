@@ -129,7 +129,7 @@ html, body {
 	z-index: 1;
 	background: #121212;
   
-/* non-critical apperance styles */
+/* non-critical appearance styles */
 	padding-left: 60px;
 	padding-right: 60px;
 }
@@ -148,7 +148,7 @@ Label[for="Nav-Trigger"] {
 	top: 10px;
 	z-index: 2;
 
-/* non-critical apperance styles (Hamburger) */
+/* non-critical appearance styles (Hamburger) */
 	height: 30px;
 	width: 30px;
 	cursor: pointer;
