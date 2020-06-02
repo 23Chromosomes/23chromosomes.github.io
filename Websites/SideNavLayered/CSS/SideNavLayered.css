@@ -127,7 +127,12 @@ html, body {
 	bottom: 100%;
 	left: 0;
 	z-index: 1;
-	background: #121212;
+	width:100%;
+	height:100%;
+	background-size: cover;
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-color: #121212;
   
 /* non-critical appearance styles */
 	padding-left: 60px;
