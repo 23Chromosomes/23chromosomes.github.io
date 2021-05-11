@@ -1,0 +1,16 @@
+.h-screen-nav{
+	height: -o-calc(100vh - 104px); /* opera */
+	height: -webkit-calc(100vh - 104px); /* google, safari */
+	height: -moz-calc(100vh - 104px); /* firefox */	
+}
+.navClosed {
+  transition: max-height 0.2s ease-in-out 0.2s, opacity 0.2s ease-in-out 0s;
+  max-height: 0px;
+  opacity: 0;
+}
+
+.navOpen {
+  transition: max-height 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0.3s;
+  max-height: 200px;
+  opacity: 1;
+}
